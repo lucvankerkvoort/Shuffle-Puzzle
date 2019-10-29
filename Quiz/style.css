@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  height: 50vh;
+  width: 350px;
+}
+
+.SlidingPuzzleFigure {
+  height: 40vh;
+  width: 40vw;
+}
+
+.SlidingPuzzle {
+  background: black;
+  display: grid;
+  grid-template-columns: 80px 80px 80px;
+  grid-template-rows: 80px 80px 80px;
+  height: 240px;
+  width: 240px;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.Tile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 0.5rem solid lightgrey;
+  border-top: 0.5rem solid lightgrey;
+  border-bottom: 0.5rem solid grey;
+  border-right: 0.5rem solid grey;
+  font-size: 4rem;
+  background: white;
+  cursor: pointer;
+}
+
+.Tile9 {
+  background: black;
+  border: none;
+}
+figcaption {
+  font: italic bold 20px sans-serif;
+  text-align: center;
+}

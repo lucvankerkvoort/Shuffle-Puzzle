@@ -12,6 +12,4 @@ jQuery.fn.shuffleChildren = function() {
 
 $(".SlidingPuzzle").shuffleChildren();
 
-$(document).on("click", ".Tile", function() {
-  if($(this) )
-});
+$(document).on("click", ".Tile", function() {});
